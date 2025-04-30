@@ -1,9 +1,15 @@
 GNU GENERAL PUBLIC LICENSE
-Version 3, 29. Juni 2007
+Version 3, 29 June 2007
 
-Copyright (C) [2025] [Erdi]
-All right reserved
+Copyright (C) 2025 Erdi
+All rights reserved.
 
-This License permits you to copy, modify, and distribute the software program, but only on the condition that you retain this License in all copies and derivative works.
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-You may modify and redistribute the software under the terms of this License, but you must disclose the source code and any changes. For more information, see the full License at: https://www.gnu.org/licenses/gpl-3.0.de.html
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
