@@ -56,42 +56,24 @@
             to { text-shadow: 0 0 20px var(--accent), 0 0 30px var(--accent); }
         }
 
-        .grid-background,
-        .rain-effect {
+        .grid-background {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            z-index: -2;
-        }
-
-        .grid-background {
             background: 
                 linear-gradient(var(--primary) 1px, transparent 1px),
                 linear-gradient(90deg, var(--primary) 1px, transparent 1px);
             background-size: 40px 40px;
             opacity: 0.1;
+            z-index: -1;
             animation: move-grid 20s linear infinite;
         }
 
         @keyframes move-grid {
             from { background-position: 0 0; }
             to { background-position: 40px 40px; }
-        }
-
-        .rain-effect {
-            pointer-events: none;
-            background-image: 
-                repeating-linear-gradient(transparent, transparent 4px, rgba(255,255,255,0.05) 5px),
-                repeating-linear-gradient(90deg, transparent, transparent 4px, rgba(255,255,255,0.05) 5px);
-            animation: rain 1.2s linear infinite;
-            opacity: 0.05;
-        }
-
-        @keyframes rain {
-            from { background-position: 0 0; }
-            to { background-position: -10px 20px; }
         }
 
         #about {
@@ -319,9 +301,9 @@
         }
     </style>
 </head>
+
 <body>
     <div class="grid-background"></div>
-    <div class="rain-effect"></div>
 
     <div class="container">
         <header>
@@ -331,30 +313,30 @@
         <section id="about">
             <div class="profile-container">
                 <div class="profile-pic">
-                    <img src="https://files.catbox.moe/w3s30s.png" alt="Profilbild">
+                    <img src="https://raw.githubusercontent.com/aoyn1xw/frontend-practice/refs/heads/main/assests/picture/IMG_2826.png" alt="Profilbild">
                 </div>
             </div>
 
             <h2>Hallo! 👋</h2>
             <p>Ich bin <span class="highlight">Erdi</span>, ein leidenschaftlicher Schüler aus Deutschland. Ich liebe es, Neues zu lernen, besonders rund um Technik, Programmieren und Design.</p>
             <p>Hier findest du einige meiner <a href="https://github.com/aoyn1xw">Projekte</a> oder kannst mir auf meinen Socials folgen!</p>
-            <p>Ich bin grade dabei Front-end devoplement zu lernen also HTML,CSS,Javascript. Es macht mir spaß projekte wie das hier zu plannen und zu bauen. Das hier ist mein erststes Projekt,dass ich grade machen und ich bin auch offen für jedes Feedback </p>
-            <p>Mein Ziel ist es nach der Schule mit meien Abschluss ein Job zu bekommen oder eiegnstädig zu werden</p>
-            <p>wenn du willst kannst du mich bei meinen weg <a herf="https://ko-fi.com/ayon1xw">hier</a> unterstützen es würde mir viel bedeuten.</p>
-            <p>Bei anliegen kannst du mich per email errreichen unter: ayon1xw@proton.me</p>
-
+            <p>Ich bin grade dabei Front-end devoplemt zu lernen also HTML,CSS,Javascript. Es macht mir Spaß Projekte wie das hier zu plannen und zu bauen. Das hier ist Mein Erstets Projekt,dass ich grade mache und ich bin offen für jedes Feedback.</p>
+            <p>Ich bin immer auf der Suche nach neuen Herausforderungen und Möglichkeiten, meine Fähigkeiten zu verbessern. Wenn du Fragen hast oder einfach nur plaudern möchtest, zögere nicht, mich zu kontaktieren mit Meiner Email oder Socials!</p>
+            <p>Mein Ziel ist es nach der Schule mit meine Abschluss ein job zu bekommen oder selbstständig zu werden.</p>
+            <p>Wenn du wilst kann du mich und meine Arbeit <a href="https://ko-fi.com/ayon1xw">hier</a> unterstüzen es würde mir viel bedeuten.</p>
+            <p>Bei Rechtlichen Anliegn bin ich ansprechbar unter der Email "ayon1xw@proton.me"</p>
 
             <div class="social-links">
                 <a href="https://github.com/aoyn1xw" class="social-icon">
-                    <img src="https://files.catbox.moe/mq0nmf.png" alt="GitHub">
+                    <img src="https://raw.githubusercontent.com/aoyn1xw/frontend-practice/refs/heads/main/assests/logos/github-mark-white.png" alt="GitHub">
                     <div class="tooltip">GitHub</div>
                 </a>
-                <a href="https://discord.com/invite/kwvwkCBhxT" class="social-icon">
-                    <img src="https://files.catbox.moe/lxddxi.png" alt="Discord">
+                <a href="https://wsfteam.xyz/discord" class="social-icon">
+                    <img src="https://raw.githubusercontent.com/aoyn1xw/frontend-practice/refs/heads/main/assests/logos/Discord-Symbol-White.png" alt="Discord">
                     <div class="tooltip">Discord</div>
                 </a>
                 <a href="https://x.com/aoyn1xw" class="social-icon">
-                    <img src="https://files.catbox.moe/4zx6p8.svg" alt="Twitter">
+                    <img src="https://raw.githubusercontent.com/aoyn1xw/frontend-practice/refs/heads/main/assests/logos/logo-white.png" alt="Twitter">
                     <div class="tooltip">Twitter</div>
                 </a>
             </div>
@@ -366,3 +348,4 @@
     </div>
 </body>
 </html>
+
